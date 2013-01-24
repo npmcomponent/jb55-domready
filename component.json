@@ -13,6 +13,6 @@
   "development": {},
   "license": "MIT",
   "scripts": [
-    "ready.js"
+    "index.js"
   ]
 }
