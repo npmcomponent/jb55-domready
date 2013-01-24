@@ -3,8 +3,8 @@
   "repo": "jb55/domready",
   "description": "bullet proof DOM ready method",
   "version": "0.2.11",
-  "homepage": "https://github.com/ded/domready"
-  "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)"
+  "homepage": "https://github.com/ded/domready",
+  "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
   "keywords": [
     "domready",
     "dom"
