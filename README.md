@@ -1,8 +1,9 @@
-domReady
+domReady component
 --------
-It's easy. Works like this:
 
+It's easy. Works like this:
 ``` js
+var domready = require('domready') // would be jb55-domready from root
 domready(function () {
   // dom is loaded!
 })
@@ -17,33 +18,8 @@ Browser support
   * Chrome *
   * Opera *
 
-Building
+Installing
 --------
 
-    $ npm install -dev
-    $ make
-    $ open tests/test.html
+    $ component install jb55/domready
 
-Including with Ender
---------------------
-Don't already have [Ender](http://ender.no.de)? Ender relies on [Node](http://nodejs.org), and [NPM](http://npmjs.org). Install it like this:
-
-    npm install ender -g
-
-Once you're good with that. Include domready in your package:
-
-    ender add domready
-
-Then use it like this:
-
-``` js
-$.domReady(function () {
-  $('body').html('<p>boosh</p>')
-})
-
-// or
-
-$(document).ready(function () {
-  $('body').html('<p>boosh</p>')
-})
-```
